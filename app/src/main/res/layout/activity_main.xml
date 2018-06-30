@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter Name"
+            android:inputType="textCapWords" />
+
+        <!-- Starting  question 1 -->
+
+        <LinearLayout
+            android:id="@+id/question_1_container"
+            style="@style/question_container_style">
+
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_1" />
+
+            <RadioGroup
+                android:id="@+id/question1_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_1_first"
+                    style="@style/question_radio_button_style"
+                    android:text="Fortran" />
+
+                <RadioButton
+                    android:id="@+id/question_1_second"
+                    style="@style/question_radio_button_style"
+                    android:text="PL/1" />
+
+                <RadioButton
+                    android:id="@+id/question_1_third"
+                    style="@style/question_radio_button_style"
+                    android:text="BASIC" />
+
+                <RadioButton
+                    android:id="@+id/question_1_fourth"
+                    style="@style/question_radio_button_style"
+                    android:text="PASCAL"
+                    android:textSize="16sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <!-- End-->
+
+        <!-- Starting  question 2 -->
+        <LinearLayout
+            android:id="@+id/question_2_container"
+            style="@style/question_container_style"
+            android:layout_width="669dp">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_2" />
+
+            <RadioGroup
+                android:id="@+id/question_2_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_2_first_logo_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Data transmission" />
+
+                <RadioButton
+                    android:id="@+id/question_2_second_ansa"
+                    style="@style/question_radio_button_style"
+                    android:text="Data flow" />
+
+                <RadioButton
+                    android:id="@+id/question_2_third_logo_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Data capture" />
+
+
+                <RadioButton
+                    android:id="@+id/question_4_third_logo_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Data processing" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        <!-- Ending  question 2 -->
+
+
+        <!-- Starting  question 3 -->
+        <LinearLayout
+            android:id="@+id/question_3_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_3" />
+
+            <RadioGroup
+                android:id="@+id/question_3_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_3_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="ALU" />
+
+                <RadioButton
+                    android:id="@+id/question_4_second_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Memory" />
+
+                <RadioButton
+                    android:id="@+id/questionThree"
+                    style="@style/question_radio_button_style"
+                    android:text="CPU" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!-- Ending question 3 -->
+
+
+        <!-- Starting question 4 -->
+        <LinearLayout
+            android:id="@+id/question_4_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_4" />
+
+
+            <RadioGroup
+                android:id="@+id/question_4_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_4_1option"
+                    style="@style/question_radio_button_style"
+                    android:text="Object Oriented Programming" />
+
+                <RadioButton
+                    android:id="@+id/question_4_2option"
+                    style="@style/question_radio_button_style"
+                    android:text="Technological advancement" />
+
+                <RadioButton
+                    android:id="@+id/question_4_3option"
+                    style="@style/question_radio_button_style"
+                    android:text="Scientific code" />
+
+                <RadioButton
+                    android:id="@+id/question_4_4option"
+                    style="@style/question_radio_button_style"
+                    android:text="	All of the above"
+                    android:textSize="16sp" />
+            </RadioGroup>
+        </LinearLayout>
+        <!-- Ending question 4 -->
+
+
+        <!-- starting question 5 -->
+
+        <LinearLayout
+            android:id="@+id/question_5_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_5" />
+
+            <RadioGroup
+                android:id="@+id/question_5_Rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_5_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="FORTRAN" />
+
+                <RadioButton
+                    android:id="@+id/question_5_pr"
+                    style="@style/question_radio_button_style"
+                    android:text="PROLOG" />
+
+                <RadioButton
+                    android:id="@+id/question_5_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="COBOL" />
+
+            </RadioGroup>
+        </LinearLayout>
+        <!-- Ending question 5-->
+
+
+        <!-- starting question 6 -->
+
+        <LinearLayout
+            android:id="@+id/question_6_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_6" />
+
+            <RadioGroup
+                android:id="@+id/question_6_radGrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_6_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Surface" />
+
+                <RadioButton
+                    android:id="@+id/question_6_cy"
+                    style="@style/question_radio_button_style"
+                    android:text="Cylinder" />
+
+                <RadioButton
+                    android:id="@+id/question_6_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Cluster" />
+
+                <RadioButton
+                    android:id="@+id/question_6_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="All of the above" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+        <!-- Ending question 6-->
+
+
+        <!-- starting question 7 -->
+
+        <LinearLayout
+            android:id="@+id/question_7_container"
+            style="@style/question_container_style">
+
+            <TextView
+                style="@style/quest_style"
+                android:text="@string/question_7" />
+
+
+            <RadioGroup
+                android:id="@+id/question_7_radGrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question_7_first"
+                    style="@style/question_radio_button_style"
+                    android:text="01" />
+
+                <RadioButton
+                    android:id="@+id/question_7_cy"
+                    style="@style/question_radio_button_style"
+                    android:text="110" />
+
+                <RadioButton
+                    android:id="@+id/question_7_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/question_7_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="None of the above" />
+
+            </RadioGroup>
+            <!-- Ending question 7 -->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="quizChecker"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
